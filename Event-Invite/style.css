@@ -1,0 +1,42 @@
+body {
+  background-color: lightblue;
+}
+.h1 {
+background-color:rgb(107, 160, 209);
+  padding:20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width:300px;
+  border-style: dashed;
+  margin: 20px;
+}
+.h2 {
+  background-color:rgb(107, 160, 209);
+  padding:20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width:300px;
+  border-style: dashed;
+  margin: 20px;
+}
+.p {
+  background-color:rgb(107, 160, 209);
+  padding:20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width:300px;
+  border-style: dashed;
+  margin: 20px;
+}
+.img {
+  background-color:rgb(107, 160, 209);
+  padding:10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width:300px;
+  border-style: dashed;
+  margin: 20px;
+}
+body {
+  background-image: url("https://www.xmple.com/wallpaper/white-hexagon-polka-blue-dots-1920x1080-c2-87cefa-ffffff-l2-78-167-a-0-f-4.svg");
+}
