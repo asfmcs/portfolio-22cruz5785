@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  background-color: #ddd;
+  padding: 10px;
+  height: 200px; /* Should be removed. Only for demonstration */
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 50px;
+  height: 150px;
+
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="#INTRO">Intro To CS</a>
+  <a href="#WEBD">Web Design</a>
+  <a href="#WEBP">Web Programming</a>
+  <a href="#WEBVR">Web VR</a>
+</div>
+
+<div class="content">
+  <center><h1>My Portfolio</h1>
+  <p>CO9 Honors</p></center>
+</div>
+
+<div class="footer" id="INTRO">
+  <center><h2>Intro To CS</h2></center>
+</div>
+
+<center><iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1rkC6xtdpPJuqgSsOTKNGndIoJ1u2SeKABAm4s02XXvk&font=Default&lang=en&initial_zoom=2&height=400' width='80%' height='400' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe></center>
+
+<center><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTlZcprClGxp6hUBY7qyJ_wO9G0-ISoUp7ZqFP8eXnrs_0zwXyoMGp7AaEodEyMTpMtHRtCEVcMJt0N/embed?start=false&loop=false&delayms=3000" frameborder="0" width="750" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></center>
+
+<div class="footer" id="WEBD">
+  <center><h2>Web Design</h2></center>
+</div>
+
+<div class="row" id="">
+  <a href="BLOG/index.html" target="_blank"<div class="column" style="background-color:#aaa;">Blog</div></a>
+  <a href="Recipe-Book/index.html" target="_blank"<div class="column" style="background-color:#bbb;">Recipe</div></a>
+  <a href="Event-Invite/index.html" target="_blank"<div class="column" style="background-color:#ccc;">Invitation</div></a>
+  <a href="Travel-Webpage/index.html" target="_blank"><div class="column" style="background-color:#ccc;">Travel Webpage</div></a>
+</div>
+
+<div class="footer" id="WEBP">
+  <center><h2>Web Programming</h2></center>
+</div> 
+
+<div class="footer" id="WEBVR">
+  <center><h2>Web VR</h2></center>
+</div>
+
+</body>
+</html>
